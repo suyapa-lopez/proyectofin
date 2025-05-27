@@ -1,0 +1,262 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ebbd69;
+  color: white;
+  padding: 5px 10px;
+}
+.logo-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  margin-right: 20px;
+}
+.inicio{
+  text-align: justify;
+  margin: 0px;
+  font-family: Arial ,sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 100px 10%;
+  text-align:left;
+}
+.inicio h1{
+  text-align: center;
+}
+.justificado{
+    width: 1100px;
+    margin: auto;
+    text-align: justify;
+}
+.img-centrada{
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  background-color: #f1ca90;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  gap: 15px;
+  width: 100%;
+  margin-top: 10px;
+ 
+}
+.revelaciones{
+  text-align: justify;
+  margin: 50px;
+  font-family: Arial ,sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.revelaciones h1{
+  text-align: center;
+}
+.contenedor{
+  display: flex;
+  justify-content: flex-end;
+}
+.subir-imagen{
+  margin-top: -330px;
+}
+.vida{
+  text-align: justify;
+  margin: 20px;
+  font-family: Arial ,sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px 5%;
+}
+.vida h1{
+  text-align: center;
+}
+.meca{
+  display: flex;
+  justify-content: flex-end;
+}
+.imagen-abajo{
+  margin-top: 110px;
+}
+.medina{
+  text-align: justify;
+  margin: 20px;
+  font-family: Arial ,sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.medina h1{
+  text-align: center;
+}
+.ensenanzas{
+  text-align: justify;
+  margin: 20px;
+  font-family: Arial ,sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.ensenanzas h1{
+  text-align: center;
+}
+.parrafo{
+  display: flex;
+  justify-content: flex-end;
+}
+.subir-imagen2{
+  margin-top: -990px;
+}
+.parrafo2{
+  display: flex;
+  justify-content:flex-end ;
+}
+.subir-imagen3{
+  margin-top: -700px;
+}
+.Registro{
+  text-align: justify;
+  margin: 20px;
+  font-family: Arial ,sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.Registro h3{
+  text-align: center;
+}
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(73, 72, 72, 0.1);
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.footer-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
+@media (max-width:768px){
+  form{
+    padding: 10px;
+  }
+  input,select,textarea,button{
+    font-size: 14px;
+  }
+}
+
+.video1{
+  width: 640px;
+  max-width: 100px;
+  height: auto;
+
+}
+/*INICIA LA PARTE DEL MENU PROPIEDADES GENERALES */
+#encabezado .menu{
+    width: 790px;
+    float: right;
+    margin-top: 40px;
+    text-align: center;
+    border: 0px solid;
+    font-size: 25px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li{
+    line-height: 2.5rem;
+    position: relative;
+}
+.menu ul{
+    position: absolute;
+}
+nav a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: .4s;
+    padding: 10px 20px;
+}
+
+nav a:hover{
+    background: rgba(0,0,0,.5);
+}
+
+nav li ul{
+    float: right;
+    font-size: 17px;
+}
+/*menu parte primer nivel*/
+.menu{
+    background: #ebbd69;
+    display: flex;
+    height: auto;
+}
+
+.menu >li{
+    float: left;
+}
+
+/*menu parte segundo nivel*/
+nav li li{
+    background: #ebbd69;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .1s;
+    width: 155px;
+}
+
+nav li:hover > ul > li{
+   max-height: 500px;
+   overflow: visible; 
+}
+
+.menu > li > ul{
+top:100%;
+}
+
+/*menu parte tercer nivel*/
+.menu ul ul{
+left:100%; 
+top: 0;
+}
+
+/*FINALIZA LA PARTE DEL MENU*/
